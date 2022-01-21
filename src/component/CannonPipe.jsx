@@ -10,11 +10,6 @@ const CannonPipe = (props) => {
         stroke: '#666',
         strokeWidth: '2px',
     };
-
-
-    // const transform = `rotate(${props.rotation}, 0, 0)`;
-
-
     const transform = `rotate(${props.rotation}, 0, 0)`;
     const muzzleWidth = 40;
     const halfMuzzle = 20;
